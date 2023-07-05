@@ -13,9 +13,24 @@ h2{
 }
 .vcs{
     background-color: rgb(153, 101, 201);
-    height: 330px;
+    height: 400px;
     padding-left: 30px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.pl-dgn{
+    height: 250px;
+    width: 25%;
+    border: 2px solid rgba(21, 156, 21, 0.811);
+    background-color: rgb(52, 189, 227);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px;
+    border-top: 22px solid #dc0f0f;
+    border-radius: 5% 5% 0 0;
 }
 h3,p{
     padding-top: 15px;
@@ -33,4 +48,17 @@ p{
 img{
     width: 100%;
     
+}
+.cmnd{
+    height: 350px;
+    margin: 20px auto;
+    
+}
+.ls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    font-size: 18px;
 }
